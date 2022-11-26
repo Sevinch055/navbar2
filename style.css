@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+    width: 100%;
+    height: 100vh;
+    background-color:#18c5f0 ;
+}
+.navbar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1{
+    color:white;
+    font-size: 28px;
+    font-family: Consolas;
+
+
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.menu ul li{
+    padding: 15px;
+}
+.btn{
+    width: 70%;
+    height: 300px;
+    text-align: center;
+}
+.content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn h1{
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.btn p{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.btn button{
+    padding:10px 30px ;
+    background-color:#bde312 ;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    
+}
+
